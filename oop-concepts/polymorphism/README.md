@@ -34,7 +34,7 @@ Tek bir arayüz (interface) veya yöntemin farklı veri türleriyle çalışmas�
 
 <br/>
 
-## Alt Tür Çokbiçimliliği — Subtype Polymorphism
+## Alt Tür Çokbiçimlilik — Subtype Polymorphism
 
 OOP bağlamında, alt tür çokbiçimliliği (subtype polymorphism) en yaygın kullanılan biçimdir.
 Bir alt sınıfın (subclass) bir üst sınıftan (superclass) özellikleri (properties) ve yöntemleri (methods) miras aldığı ve ayrıca miras alınan özellikleri ve yöntemleri geçersiz kılabildiği (override) veya genişletebildiği (extend) kalıtım yoluyla elde edilir.
