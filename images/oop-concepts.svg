@@ -1,0 +1,452 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-roledescription="flowchart-v2" role="graphics-document document" viewBox="-7.499999523162842 -8 1109.0965576171875 694.3522338867188" style="max-width: 1109.0965576171875px;" width="100%" id="mermaid-svg-7545625">
+  <style>
+    #mermaid-svg-7545625 {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-7545625 .error-icon {
+      fill: #552222;
+    }
+
+    #mermaid-svg-7545625 .error-text {
+      fill: #552222;
+      stroke: #552222;
+    }
+
+    #mermaid-svg-7545625 .edge-thickness-normal {
+      stroke-width: 2px;
+    }
+
+    #mermaid-svg-7545625 .edge-thickness-thick {
+      stroke-width: 3.5px;
+    }
+
+    #mermaid-svg-7545625 .edge-pattern-solid {
+      stroke-dasharray: 0;
+    }
+
+    #mermaid-svg-7545625 .edge-pattern-dashed {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-7545625 .edge-pattern-dotted {
+      stroke-dasharray: 2;
+    }
+
+    #mermaid-svg-7545625 .marker {
+      fill: #666;
+      stroke: #666;
+    }
+
+    #mermaid-svg-7545625 .marker.cross {
+      stroke: #666;
+    }
+
+    #mermaid-svg-7545625 svg {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+    }
+
+    #mermaid-svg-7545625 .label {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      color: #000000;
+    }
+
+    #mermaid-svg-7545625 .cluster-label text {
+      fill: #333;
+    }
+
+    #mermaid-svg-7545625 .cluster-label span {
+      color: #333;
+    }
+
+    #mermaid-svg-7545625 .label text,
+    #mermaid-svg-7545625 span {
+      fill: #000000;
+      color: #000000;
+    }
+
+    #mermaid-svg-7545625 .node rect,
+    #mermaid-svg-7545625 .node circle,
+    #mermaid-svg-7545625 .node ellipse,
+    #mermaid-svg-7545625 .node polygon,
+    #mermaid-svg-7545625 .node path {
+      fill: #eee;
+      stroke: #999;
+      stroke-width: 1px;
+    }
+
+    #mermaid-svg-7545625 .node .label {
+      text-align: center;
+    }
+
+    #mermaid-svg-7545625 .node.clickable {
+      cursor: pointer;
+    }
+
+    #mermaid-svg-7545625 .arrowheadPath {
+      fill: #333333;
+    }
+
+    #mermaid-svg-7545625 .edgePath .path {
+      stroke: #666;
+      stroke-width: 2.0px;
+    }
+
+    #mermaid-svg-7545625 .flowchart-link {
+      stroke: #666;
+      fill: none;
+    }
+
+    #mermaid-svg-7545625 .edgeLabel {
+      background-color: white;
+      text-align: center;
+    }
+
+    #mermaid-svg-7545625 .edgeLabel rect {
+      opacity: 0.5;
+      background-color: white;
+      fill: white;
+    }
+
+    #mermaid-svg-7545625 .cluster rect {
+      fill: hsl(0, 0%, 98.9215686275%);
+      stroke: #707070;
+      stroke-width: 1px;
+    }
+
+    #mermaid-svg-7545625 .cluster text {
+      fill: #333;
+    }
+
+    #mermaid-svg-7545625 .cluster span {
+      color: #333;
+    }
+
+    #mermaid-svg-7545625 div.mermaidTooltip {
+      position: absolute;
+      text-align: center;
+      max-width: 200px;
+      padding: 2px;
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 12px;
+      background: hsl(-160, 0%, 93.3333333333%);
+      border: 1px solid #707070;
+      border-radius: 2px;
+      pointer-events: none;
+      z-index: 100;
+    }
+
+    #mermaid-svg-7545625 .flowchartTitleText {
+      text-anchor: middle;
+      font-size: 18px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-7545625 :root {
+      --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+    }
+  </style>
+  <g>
+    <marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="10" viewBox="0 0 12 20" class="marker flowchart" id="flowchart-pointEnd">
+      <path style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowMarkerPath" d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+    <marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="0" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointStart">
+      <path style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowMarkerPath" d="M 0 5 L 10 10 L 10 0 z" />
+    </marker>
+    <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleEnd">
+      <circle style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowMarkerPath" r="5" cy="5" cx="5" />
+    </marker>
+    <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleStart">
+      <circle style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowMarkerPath" r="5" cy="5" cx="5" />
+    </marker>
+    <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossEnd">
+      <path style="stroke-width: 2; stroke-dasharray: 1, 0;" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9" />
+    </marker>
+    <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossStart">
+      <path style="stroke-width: 2; stroke-dasharray: 1, 0;" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9" />
+    </marker>
+    <g class="root">
+      <g class="clusters" />
+      <g class="edgePaths" />
+      <g class="edgeLabels" />
+      <g class="nodes">
+        <g transform="translate(-7.5, -8)" class="root">
+          <g class="clusters">
+            <g id="subGraph0" class="cluster default">
+              <rect height="678.3522644042969" width="1093.0965423583984" y="8" x="8" ry="0" rx="0" style="" />
+              <g transform="translate(504.3991241455078, 8)" class="cluster-label">
+                <foreignObject height="29.58806800842285" width="115.29829406738281">
+                  <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                    <span class="nodeLabel">OOP Kavramları</span>
+                  </div>
+                </foreignObject>
+              </g>
+            </g>
+          </g>
+          <g class="edgePaths">
+            <path marker-end="url(#flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-OOP LE-Abstraction" id="L-OOP-Abstraction-0" d="M160.503,324.882L181.71,287.451C202.917,250.019,245.331,175.157,270.846,137.725C296.362,100.294,304.979,100.294,309.288,100.294L313.597,100.294" />
+            <path marker-end="url(#flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-OOP LE-Encapsulation" id="L-OOP-Encapsulation-0" d="M185.765,324.882L202.761,314.882C219.758,304.882,253.751,284.882,286.763,274.882C319.776,264.882,351.807,264.882,367.822,264.882L383.838,264.882" />
+            <path marker-end="url(#flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-OOP LE-Inheritance" id="L-OOP-Inheritance-0" d="M185.765,369.47L202.761,379.47C219.758,389.47,253.751,409.47,280.584,419.47C307.418,429.47,327.091,429.47,336.928,429.47L346.764,429.47" />
+            <path marker-end="url(#flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-OOP LE-Polymorphism" id="L-OOP-Polymorphism-0" d="M160.503,369.47L181.71,406.902C202.917,444.333,245.331,519.196,270.704,556.627C296.078,594.058,304.411,594.058,308.578,594.058L312.744,594.058" />
+          </g>
+          <g class="edgeLabels">
+            <g class="edgeLabel">
+              <g transform="translate(0, 0)" class="label">
+                <foreignObject height="0" width="0">
+                  <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                    <span class="edgeLabel"></span>
+                  </div>
+                </foreignObject>
+              </g>
+            </g>
+            <g class="edgeLabel">
+              <g transform="translate(0, 0)" class="label">
+                <foreignObject height="0" width="0">
+                  <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                    <span class="edgeLabel"></span>
+                  </div>
+                </foreignObject>
+              </g>
+            </g>
+            <g class="edgeLabel">
+              <g transform="translate(0, 0)" class="label">
+                <foreignObject height="0" width="0">
+                  <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                    <span class="edgeLabel"></span>
+                  </div>
+                </foreignObject>
+              </g>
+            </g>
+            <g class="edgeLabel">
+              <g transform="translate(0, 0)" class="label">
+                <foreignObject height="0" width="0">
+                  <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                    <span class="edgeLabel"></span>
+                  </div>
+                </foreignObject>
+              </g>
+            </g>
+          </g>
+          <g class="nodes">
+            <g transform="translate(306.09657287597656, 35)" class="root">
+              <g class="clusters">
+                <g id="Abstraction" class="cluster default">
+                  <rect height="114.58806610107422" width="761.647705078125" y="8" x="8" ry="0" rx="0" style="" />
+                  <g transform="translate(347.8437385559082, 8)" class="cluster-label">
+                    <foreignObject height="29.58806800842285" width="81.9602279663086">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="nodeLabel">Soyutlama</span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+              </g>
+              <g class="edgePaths">
+                <path marker-end="url(#flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-A1 LE-A2" id="L-A1-A2-0" d="M335.315,65.294L339.482,65.294C343.649,65.294,351.982,65.294,360.315,65.294C368.649,65.294,376.982,65.294,381.149,65.294L385.315,65.294" />
+              </g>
+              <g class="edgeLabels">
+                <g class="edgeLabel">
+                  <g transform="translate(0, 0)" class="label">
+                    <foreignObject height="0" width="0">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="edgeLabel"></span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+              </g>
+              <g class="nodes">
+                <g transform="translate(184.1576690673828, 65.29403305053711)" id="flowchart-A1-2361" class="node default default">
+                  <rect height="44.58806800842285" width="302.3153381347656" y="-22.294034004211426" x="-151.1576690673828" ry="0" rx="0" style="" class="basic label-container" />
+                  <g transform="translate(-143.6576690673828, -18.794034004211426)" style="" class="label">
+                    <foreignObject height="49.58806800842285" width="287.3153381347656">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="nodeLabel">Gerçek dünya varlıklarını nesneler <br /> olarak temsil edin </span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+                <g transform="translate(564.9815216064453, 65.29403305053711)" id="flowchart-A2-2363" class="node default default">
+                  <rect height="44.58806800842285" width="359.3323669433594" y="-22.294034004211426" x="-179.6661834716797" ry="0" rx="0" style="" class="basic label-container" />
+                  <g transform="translate(-172.1661834716797, -18.794034004211426)" style="" class="label">
+                    <foreignObject height="49.58806800842285" width="344.3323669433594">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="nodeLabel">Karmaşıklığı gizleyin ve temel özelliklere <br />odaklanın </span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g transform="translate(147.87215423583984, 347.17613220214844)" id="flowchart-OOP-2351" class="node default default">
+              <rect height="44.58806800842285" width="229.7443084716797" y="-22.294034004211426" x="-114.87215423583984" ry="5" rx="5" style="" class="basic label-container" />
+              <g transform="translate(-107.37215423583984, -12.794034004211426)" style="" class="label">
+                <foreignObject height="29.58806800842285" width="214.7443084716797">
+                  <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                    <span class="nodeLabel">Nesne Yönelimli Programlama</span>
+                  </div>
+                </foreignObject>
+              </g>
+            </g>
+            <g transform="translate(376.3380584716797, 199.58806610107422)" class="root">
+              <g class="clusters">
+                <g id="Encapsulation" class="cluster default">
+                  <rect height="114.58806610107422" width="621.1647338867188" y="8" x="8" ry="0" rx="0" style="" />
+                  <g transform="translate(269.0156059265137, 8)" class="cluster-label">
+                    <foreignObject height="29.58806800842285" width="99.1335220336914">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="nodeLabel">Kapsülleme</span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+              </g>
+              <g class="edgePaths">
+                <path marker-end="url(#flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-E1 LE-E2" id="L-E1-E2-0" d="M315.23,65.294L319.397,65.294C323.563,65.294,331.897,65.294,340.23,65.294C348.563,65.294,356.897,65.294,361.063,65.294L365.23,65.294" />
+              </g>
+              <g class="edgeLabels">
+                <g class="edgeLabel">
+                  <g transform="translate(0, 0)" class="label">
+                    <foreignObject height="0" width="0">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="edgeLabel"></span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+              </g>
+              <g class="nodes">
+                <g transform="translate(174.11505126953125, 65.29403305053711)" id="flowchart-E1-2365" class="node default default">
+                  <rect height="44.58806800842285" width="282.2301025390625" y="-22.294034004211426" x="-141.11505126953125" ry="0" rx="0" style="" class="basic label-container" />
+                  <g transform="translate(-133.61505126953125, -18.794034004211426)" style="" class="label">
+                    <foreignObject height="39.58806800842285" width="267.2301025390625">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="nodeLabel">Veri ve işlemleri bir sınıfta bir araya <br />getirin </span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+                <g transform="translate(484.6974182128906, 65.29403305053711)" id="flowchart-E2-2367" class="node default default">
+                  <rect height="44.58806800842285" width="238.93463134765625" y="-22.294034004211426" x="-119.46731567382812" ry="0" rx="0" style="" class="basic label-container" />
+                  <g transform="translate(-111.96731567382812, -14.794034004211426)" style="" class="label">
+                    <foreignObject height="29.58806800842285" width="223.93463134765625">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="nodeLabel">Dahili verilere erişimi kısıtlayın</span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g transform="translate(339.26417541503906, 364.17613220214844)" class="root">
+              <g class="clusters">
+                <g id="Inheritance" class="cluster default">
+                  <rect height="114.58806610107422" width="695.3124694824219" y="8" x="8" ry="0" rx="0" style="" />
+                  <g transform="translate(314.860782623291, 8)" class="cluster-label">
+                    <foreignObject height="29.58806800842285" width="101.59090423583984">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="nodeLabel">Kalıtım (Miras)</span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+              </g>
+              <g class="edgePaths">
+                <path marker-end="url(#flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-I1 LE-I2" id="L-I1-I2-0" d="M320.67,65.294L324.837,65.294C329.004,65.294,337.337,65.294,345.67,65.294C354.004,65.294,362.337,65.294,366.504,65.294L370.67,65.294" />
+              </g>
+              <g class="edgeLabels">
+                <g class="edgeLabel">
+                  <g transform="translate(0, 0)" class="label">
+                    <foreignObject height="0" width="0">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="edgeLabel"></span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+              </g>
+              <g class="nodes">
+                <g transform="translate(176.83522033691406, 65.29403305053711)" id="flowchart-I1-2369" class="node default default">
+                  <rect height="44.58806800842285" width="287.6704406738281" y="-22.294034004211426" x="-143.83522033691406" ry="0" rx="0" style="" class="basic label-container" />
+                  <g transform="translate(-136.33522033691406, -18.794034004211426)" style="" class="label">
+                    <foreignObject height="39.58806800842285" width="272.6704406738281">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="nodeLabel">Mevcut sınıflardan yeni sınıflar <br />oluşturun </span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+                <g transform="translate(524.491455078125, 65.29403305053711)" id="flowchart-I2-2371" class="node default default">
+                  <rect height="44.58806800842285" width="307.64202880859375" y="-22.294034004211426" x="-153.82101440429688" ry="0" rx="0" style="" class="basic label-container" />
+                  <g transform="translate(-146.32101440429688, -18.794034004211426)" style="" class="label">
+                    <foreignObject height="39.58806800842285" width="292.64202880859375">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="nodeLabel">Kodun yeniden kullanılabilirliğini ve <br />modülerliğini teşvik edin </span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g transform="translate(305.2443084716797, 528.7641983032227)" class="root">
+              <g class="clusters">
+                <g id="Polymorphism" class="cluster default">
+                  <rect height="114.58806610107422" width="763.3522644042969" y="8" x="8" ry="0" rx="0" style="" />
+                  <g transform="translate(339.9602241516113, 8)" class="cluster-label">
+                    <foreignObject height="29.58806800842285" width="99.43181610107422">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="nodeLabel">Çokbiçimlilik</span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+              </g>
+              <g class="edgePaths">
+                <path marker-end="url(#flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-P1 LE-P2" id="L-P1-P2-0" d="M349.634,65.294L353.8,65.294C357.967,65.294,366.3,65.294,374.634,65.294C382.967,65.294,391.3,65.294,395.467,65.294L399.634,65.294" />
+              </g>
+              <g class="edgeLabels">
+                <g class="edgeLabel">
+                  <g transform="translate(0, 0)" class="label">
+                    <foreignObject height="0" width="0">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="edgeLabel"></span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+              </g>
+              <g class="nodes">
+                <g transform="translate(191.31675720214844, 65.29403305053711)" id="flowchart-P1-2373" class="node default default">
+                  <rect height="44.58806800842285" width="316.6335144042969" y="-22.294034004211426" x="-158.31675720214844" ry="0" rx="0" style="" class="basic label-container" />
+                  <g transform="translate(-150.81675720214844, -14.794034004211426)" style="" class="label">
+                    <foreignObject height="29.58806800842285" width="301.6335144042969">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="nodeLabel">Farklı nesne türleri için tek arayüz</span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+                <g transform="translate(572.9928894042969, 65.29403305053711)" id="flowchart-P2-2375" class="node default default">
+                  <rect height="44.58806800842285" width="346.71875" y="-22.294034004211426" x="-173.359375" ry="0" rx="0" style="" class="basic label-container" />
+                  <g transform="translate(-165.859375, -18.794034004211426)" style="" class="label">
+                    <foreignObject height="39.58806800842285" width="331.71875">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                        <span class="nodeLabel">Kodun farklı veri türleriyle çalışmasını <br />sağlayın </span>
+                      </div>
+                    </foreignObject>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <deepl-alert xmlns="" />
+  <deepl-alert xmlns="" />
+  <deepl-alert xmlns="" />
+</svg>
