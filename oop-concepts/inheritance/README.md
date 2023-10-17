@@ -1,6 +1,7 @@
 # Inheritance — Kalıtım
 
 Kalıtım, Nesne Yönelimli Programlamada (OOP) bir sınıfın başka bir sınıftan özellikleri (properties) (öznitelikleri) ve yöntemleri (methods) (fonksiyonları) miras almasını sağlayan ve böylece kodun yeniden kullanılabilirliğini ve modülerliğini teşvik eden temel bir kavramdır.
+
 <br/>
 
 ---
@@ -66,9 +67,13 @@ Bu örnekte, bir name özniteliği (attribute), bir yapıcısı (constructor) ve
 
 ## Gerçek Dünya Örneği
 
-> TypeScript kalıtımının (inheritance) kullanılabileceği bir e-ticaret uygulamasını içeren daha gerçekçi bir senaryoya göz atalım.
+TypeScript kalıtımının (inheritance) kullanılabileceği bir e-ticaret uygulamasını içeren daha gerçekçi bir senaryoya göz atalım.
+
+<br/>
 
 ![inheritance-example.svg](../../images/inheritance-example.svg)
+
+<br/>
 
 Bu diyagramda üç sınıfımız var: Product, Book ve Electronic. Hem Book hem de Electronic sınıfları --|> sembolü ile Product sınıfından miras alınmış olarak gösterilmiştir. Sınıf alanları (fields) ve yöntemleri (methods) de ana hatlarıyla belirtilmiştir. Alan adları (Field names) ve yöntem adlarından (method names) önceki + sembolü bunların public olduğunu gösterir.
 

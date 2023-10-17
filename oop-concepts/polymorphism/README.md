@@ -1,6 +1,6 @@
 # Polymorphism — Çokbiçimlilik
 
-> Çokbiçimlilik, nesne yönelimli programlamada (OOP) farklı sınıflardaki nesnelerin ortak bir üst sınıfın nesneleri olarak ele alınmasını sağlayan temel bir kavramdır.
+Çokbiçimlilik, nesne yönelimli programlamada (OOP) farklı sınıflardaki nesnelerin ortak bir üst sınıfın nesneleri olarak ele alınmasını sağlayan temel bir kavramdır.
 
 <br/>
 
@@ -11,14 +11,19 @@
 ## Typescript'te Çokbiçimlilik
 
 Tek bir arayüz (interface) veya yöntemin farklı veri türleriyle çalışmasını sağlayarak kodda esneklik ve yeniden kullanılabilirlik sağlar. OOP'deki üç ana çokbiçimlilik türü şunlardır:
+
 <br/>
 
 1. **Alt tür çokbiçimlilik (Subtype polymorphism):**
    Kalıtım (Inheritance) veya Uygulama çokbiçimliliği (Implementation polymorphism) olarak da bilinir.
+
    <br/>
+
 2. **Parametrik çokbiçimlilik (Parametric polymorphism):**
    Jenerik (Generics) olarak da bilinir).
+
    <br/>
+
 3. **Ad hoc çokbiçimlilik (Ad hoc polymorphism):**
    Fonksiyon aşırı yükleme (Function overloading) veya Operatör aşırı yükleme (Operator overloading) olarak da bilinir.
 
@@ -81,6 +86,7 @@ console.log(`Total area of shapes: ${totalArea}`);
 ```
 
 Bu örnekte, area soyut yöntemine (abstract method) sahip bir Shape soyut sınıfı (abstract class) tanımlıyoruz. Rectangle ve Circle sınıfları Shape'i genişletir (extend) ve area yöntemini kendi uygulamalarıyla geçersiz kılar (override). Daha sonra Rectangle ve Circle örneklerini (instances) Shape örnekleri olarak ele alabilir ve bir dizi şeklin toplam alanını hesaplamak için getTotalArea fonksiyonunu kullanabiliriz. Bu, farklı şekil nesneleri (shape objects) ortak üst sınıf (common superclass) Shape'in örnekleri (instances) olarak ele alınabildiğinden, çokbiçimliliği eylem halinde gösterir.
+
 <br/>
 
 ---
@@ -137,6 +143,7 @@ Bu örnekte, T türünde bir parametre ve T türünde bir değer kabul eden ve d
 Ayrıca, T türünde bir parametre kabul eden ve aynı türden iki değeri saklayabilen jenerik (generic) bir Pair sınıfı tanımlarız. Pair sınıfının birinci ve ikinci özelliklerinin (properties) değerlerini değiştiren bir swap yöntemi (method) vardır. Pair sınıfı, tür güvenliğini koruyup sayılar (numbers) ve dizeler (strings) gibi farklı veri türleriyle kullanılabilir.
 
 Jenerikleri (Generics) kullanarak, belirli bir somut türe (concrete type) bağlı olmadan farklı türlerle (types) çalışabilen yeniden kullanılabilir ve esnek bir kod oluştururuz. Bu, Typescript'te parametrik çokbiçimliliğin (parametric polymorphism) bir örneğidir.
+
 <br/>
 
 ---
@@ -145,25 +152,31 @@ Jenerikleri (Generics) kullanarak, belirli bir somut türe (concrete type) bağl
 
 ## Örneklerle Çokbiçimlilik
 
-> Javascript ve Typescript alanında, çokbiçimlilik çeşitli kütüphanelerde ve çerçevelerde gözlemlenebilir. Bu kütüphanelerden biri de Node.js için minimalist bir web çerçevesi olan Express.js'dir.
+Javascript ve Typescript alanında, çokbiçimlilik çeşitli kütüphanelerde ve çerçevelerde gözlemlenebilir. Bu kütüphanelerden biri de Node.js için minimalist bir web çerçevesi olan Express.js'dir.
 
 Express.js'deki çokbiçimliliğin güzelliği özellikle ara katman fonksiyonlarının (middleware functions) kullanımında takdir edilebilir.
+
+<br/>
 
 ### Ara Katmanın (Middleware) Büyüsü
 
 Ara katman fonksiyonları (Middleware functions), istek nesnesine (request object), yanıt nesnesine (response object) ve uygulamanın istek-yanıt döngüsündeki (request-response cycle) bir sonraki fonksiyona erişimi olan fonksiyonlardır. Ara katman fonksiyonları, herhangi bir kodu yürütmek, istek ve yanıt nesnelerinde değişiklik yapmak, istek-yanıt döngüsünü sonlandırmak ve yığındaki (stack) bir sonraki ara katmanı (middleware) çağırmak gibi çeşitli görevleri yerine getirebilir.
+
 <br/>
 
 #### İstek (Request), Yanıt (Response) ve NextFunction'ı Anlamak
 
 TypeScript ile Express.js'de Request, Response ve NextFunction, Express.js tür tanımları tarafından sağlanan arayüzlerdir (interfaces).
 
+<br/>
+
 - **Request (İstek):** İstek sorgu dizesi, parametreler (parameters), gövde (body), HTTP üstbilgileri (HTTP headers) ve daha fazlası için özellikler içeren HTTP isteğini temsil eder.
   <br/>
 - **Response (Yanıt):** Bir Express uygulamasının bir HTTP isteği aldığında gönderdiği HTTP yanıtını (HTTP response) temsil eder. HTTP yanıtını göndermek için res.send(), res.json(), res.sendFile() ve daha fazlası gibi yöntemleri vardır.
   <br/>
 - **NextFunction:** Kontrolü bir sonraki ara katman fonksiyonuna (next middleware function) geçirmek için çağırdığınız bir sonraki fonksiyonu temsil eder.
-  <br/>
+
+<br/>
 
 ---
 

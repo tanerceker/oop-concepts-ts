@@ -1,6 +1,6 @@
 # Encapsulation — Kapsülleme
 
-> Kapsülleme, nesne yönelimli programlamada (OOP) temel bir kavramdır ve verilerin (öznitelikler) ve bu veriler üzerinde çalışan yöntemlerin (fonksiyonlar) tek bir birim, tipik olarak bir sınıf içinde bir araya getirilmesi uygulamasını ifade eder.
+Kapsülleme, nesne yönelimli programlamada (OOP) temel bir kavramdır ve verilerin (öznitelikler) ve bu veriler üzerinde çalışan yöntemlerin (fonksiyonlar) tek bir birim, tipik olarak bir sınıf içinde bir araya getirilmesi uygulamasını ifade eder.
 
 <br/>
 
