@@ -1,6 +1,6 @@
-# Nesne Yönelimli Programlama (OOP)
+# Object-oriented Programming (OOP)
 
-Nesne Yönelimli Programlama, kodu yapılandırmanın ve organize etmenin bir yolu olarak nesne kavramını kullanan bir programlama paradigmasıdır. Geliştiricilerin daha esnek, yeniden kullanılabilir ve sürdürülebilir yazılımlar oluşturmasını sağlayan soyutlama (abstraction), kapsülleme (encapsulation), kalıtım (inheritance) ve çokbiçimlilik (polymorphism) ilkelerine dayanır.
+Nesne yönelimli Programlama (OOP), kodu yapılandırmanın ve organize etmenin bir yolu olarak nesne kavramını kullanan bir programlama paradigmasıdır. Geliştiricilerin daha esnek, yeniden kullanılabilir ve sürdürülebilir yazılımlar oluşturmasını sağlayan soyutlama (abstraction), kapsülleme (encapsulation), kalıtım (inheritance) ve çokbiçimlilik (polymorphism) ilkelerine dayanır.
 
 Aşağıda OOP ve dört ana kavramını dallar halinde gösteren bir grafik yer almaktadır. Her bir dal, ilişkilerini ve OOP paradigması içindeki önemlerini görselleştirmeye yardımcı olmak için ilgili kavramın kısa bir açıklamasına sahiptir.
 
