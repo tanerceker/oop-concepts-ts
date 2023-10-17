@@ -111,6 +111,7 @@ Kapsülleme sadece verileri gizlemek veya private hale getirmek değildir. İlgi
 
 Nesne-yönelimli Programlamanın (OOP) temel ilkelerinden biri kapsüllemedir. Kapsülleme, verilerin ve bu veriler üzerinde çalışan yöntemlerin tek bir birimde toplanması ve bu verilere erişimin kontrol edilmesi anlamına gelir. Bu kavram, bakımı yapılabilir, ölçeklenebilir yazılımlar oluşturmak için temeldir.
 <br/>
+<br/>
 
 ### Neden NestJS?
 
@@ -118,10 +119,12 @@ NestJS, verimli, ölçeklenebilir Node.js web uygulamaları oluşturmak için bi
 
 NestJS ile ilgili en iyi şeylerden biri, Typescript'in güçlü türleme ve dekoratörler (decorators) gibi gelişmiş özelliklerinden tam olarak yararlanmasıdır. NestJS, her biri belirli işlevleri kapsülleyebilen modüller, hizmetler ve kontrolcüler kavramı etrafında inşa edilmiştir.
 <br/>
+<br/>
 
 ### NestJS'de Kapsülleme
 
 NestJS'de kapsülleme, hizmetlerin ve denetleyicilerin nasıl oluşturulduğu ve kullanıldığı konusunda gözlemlenir. NestJS'deki hizmetler iş mantığını, kontrolörler ise istek işleme mantığını kapsüllemek içindir.
+<br/>
 <br/>
 
 #### Hizmetlerde (Services) Kapsülleme
@@ -148,6 +151,7 @@ export class UsersService {
 ```
 
 UsersService'de, verileri (users dizisi) ve bu veriler üzerinde çalışan yöntemleri (findAll, findOne) kapsüllüyoruz. Bu servis HTTP veya veritabanları hakkında hiçbir şey bilmez; sadece kullanıcıları yönetmekle ilgilenir. Veriler (bu durumda users dizisi) gizli tutulur ve yalnızca hizmet tarafından sağlanan yöntemler aracılığıyla erişilebilir ve değiştirilebilir. Bu, kapsülleme işlemidir.
+<br/>
 <br/>
 
 #### Kontrolörlerde (Controllers) Kapsülleme
