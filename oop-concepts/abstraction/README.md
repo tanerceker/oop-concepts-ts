@@ -124,7 +124,7 @@ Bu örnekte, geçerli tarih ve saati elde etmek, yılı, ayı ve tarihi çıkarm
 
 ## Bir Soyutlama Örneği Olarak TypeORM
 
-> TypeORM, geliştiricilerin birleşik, üst düzey bir API kullanarak farklı veritabanı türleriyle etkileşime girmesine olanak tanıyan, çeşitli veritabanları üzerinde bir soyutlama katmanıdır. Bu soyutlama katmanı (abstraction layer), veritabanına özgü SQL sorguları yazma ihtiyacını azaltır ve veri kalıcılığı ile başa çıkmak için daha Javascript/Typescript dostu bir yol sağlar.
+TypeORM, geliştiricilerin birleşik, üst düzey bir API kullanarak farklı veritabanı türleriyle etkileşime girmesine olanak tanıyan, çeşitli veritabanları üzerinde bir soyutlama katmanıdır. Bu soyutlama katmanı (abstraction layer), veritabanına özgü SQL sorguları yazma ihtiyacını azaltır ve veri kalıcılığı ile başa çıkmak için daha Javascript/Typescript dostu bir yol sağlar.
 
 <br/>
 

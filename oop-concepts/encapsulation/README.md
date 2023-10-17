@@ -105,7 +105,7 @@ JavaScript'in private veya public gibi açık (explicit) erişim değiştiricile
 
 ## NestJS ile Typescript'te Kapsülleme
 
-> Kapsülleme sadece verileri gizlemek veya private hale getirmek değildir. İlgili veri ve davranışları tek bir birimde toplamak ve bu verilerle etkileşim için net arayüzler (interfaces) tanımlamakla ilgilidir.
+Kapsülleme sadece verileri gizlemek veya private hale getirmek değildir. İlgili veri ve davranışları tek bir birimde toplamak ve bu verilerle etkileşim için net arayüzler (interfaces) tanımlamakla ilgilidir.
 
 Nesne Yönelimli Programlamanın (OOP) temel ilkelerinden biri kapsüllemedir. Kapsülleme, verilerin ve bu veriler üzerinde çalışan yöntemlerin tek bir birimde toplanması ve bu verilere erişimin kontrol edilmesi anlamına gelir. Bu kavram, bakımı yapılabilir, ölçeklenebilir yazılımlar oluşturmak için temeldir.
 <br/>
