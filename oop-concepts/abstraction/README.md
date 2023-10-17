@@ -3,8 +3,11 @@
 > Nesne Yönelimli Programlamada (OOP) soyutlama, karmaşık sistemleri daha küçük, daha yönetilebilir bileşenlere ayırarak basitleştirme sürecini ifade eder.
 
 Bir sistemin uygulama detaylarının gizlenmesini ve kullanıcıya yalnızca temel özelliklerin gösterilmesini içerir. Soyutlama, geliştiricilerin altta yatan karmaşıklıkla ilgilenmeden bir bileşenin temel işlevselliğine odaklanmasına olanak tanıyarak kodun anlaşılmasını, sürdürülmesini ve genişletilmesini kolaylaştırır.
+<br/>
 
 ---
+
+<br/>
 
 ## Typescript'te Soyutlama
 
@@ -65,8 +68,11 @@ console.log("Total area:", calculateTotalArea(shapes));
 ```
 
 Bu örnekte, iki yöntem içeren bir Shape arayüzü tanımlıyoruz: area() ve perimeter(). Daha sonra Shape arayüzünü uygulayan Circle ve Rectangle adında iki sınıf oluşturuyoruz. Bu, her iki sınıfın da area() ve perimeter() yöntemlerine sahip olmasını zorunlu kılar ve bir soyutlama düzeyi sağlar. calculateTotalArea() fonksiyonu bir dizi Shape nesnesini kabul eder ve toplam alanı hesaplayıp farklı şekil türleriyle tutarlı ve basitleştirilmiş bir şekilde çalışarak soyutlamanın faydalarını gösterir.
+<br/>
 
 ---
+
+<br/>
 
 ## Date sınıfı örneği
 
@@ -107,16 +113,24 @@ console.log(`Today is ${formattedDate}`);
 ```
 
 Bu örnekte, geçerli tarih ve saati elde etmek, yılı, ayı ve tarihi çıkarmak, Noel'e kadar olan gün sayısını hesaplamak ve geçerli tarihi belirli bir yerel ayara göre biçimlendirmek için Date sınıfını kullanıyoruz. Date sınıfı, tarih ve saat hesaplamalarının altında yatan karmaşıklığı soyutlarken bu görevleri gerçekleştirmek için basit bir API sağlar.
+<br/>
 
 ---
+
+<br/>
 
 ## Bir Soyutlama Örneği Olarak TypeORM
 
 > TypeORM, geliştiricilerin birleşik, üst düzey bir API kullanarak farklı veritabanı türleriyle etkileşime girmesine olanak tanıyan, çeşitli veritabanları üzerinde bir soyutlama katmanıdır. Bu soyutlama katmanı (abstraction layer), veritabanına özgü SQL sorguları yazma ihtiyacını azaltır ve veri kalıcılığı ile başa çıkmak için daha Javascript/Typescript dostu bir yol sağlar.
 
+<br/>
+
 ![abstraction-typeorm.svg](../../images/abstraction-example.svg)
 
+<br/>
+
 TypeORM'un özellikle bir şema tanımlama, veritabanını sorgulama ve bir tabloya girdi ekleme söz konusu olduğunda nasıl bir soyutlama katmanı görevi gördüğünü inceleyelim.
+<br/>
 
 ### 1. Bir Şema Tanımlama
 
@@ -142,6 +156,7 @@ export class User {
 ```
 
 Bu örnekte, bir User sınıfı veritabanındaki bir User tablosuna eşlenir. User sınıfının her özelliği (property) tablodaki bir sütunla eşlenir. Eşlemeyi bildirmek için @Entity, @PrimaryGeneratedColumn ve @Column dekoratörleri (decorators) kullanılır.
+<br/>
 
 ### 2. Veritabanı Sorgulama
 
@@ -160,6 +175,7 @@ async function getUser() {
 
 Bu örnekte, getRepository(User) size User varlığı (entity) için bir depo (repository) sağlar.
 Depo (Repository), veritabanını sorgulamanıza (query) olanak tanıyan findOne, find, save gibi yöntemlere (methods) sahiptir. findOne yöntemi, id'si 1 olan tek bir kullanıcıyı (user) getirir.
+<br/>
 
 ### 3. Tabloya Girdi Ekleme
 

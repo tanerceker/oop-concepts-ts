@@ -1,6 +1,11 @@
 # Inheritance — Kalıtım
 
 Kalıtım, Nesne Yönelimli Programlamada (OOP) bir sınıfın başka bir sınıftan özellikleri (properties) (öznitelikleri) ve yöntemleri (methods) (fonksiyonları) miras almasını sağlayan ve böylece kodun yeniden kullanılabilirliğini ve modülerliğini teşvik eden temel bir kavramdır.
+<br/>
+
+---
+
+<br/>
 
 ## Typescript'te Kalıtım
 
@@ -52,6 +57,12 @@ myDog.move();
 ```
 
 Bu örnekte, bir name özniteliği (attribute), bir yapıcısı (constructor) ve bir move yöntemi (method) olan bir temel sınıfımız (base class) Animal vardır. Daha sonra extends anahtar sözcüğünü kullanarak Animal sınıfından miras alan türetilmiş (derived) bir Dog sınıfı oluşturuyoruz. Dog sınıfının kendi bark yöntemi vardır ve Animal sınıfındaki move yöntemini geçersiz kılar (override). Yeni bir Dog örneği (instance) oluştururken, hem Dog sınıfındaki bark yöntemini hem de Animal sınıfındaki move yöntemini (geçersiz kılınmış (overridden) davranış ile) kullanabiliriz.
+
+<br/>
+
+---
+
+<br/>
 
 ## Gerçek Dünya Örneği
 

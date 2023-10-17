@@ -2,6 +2,12 @@
 
 > Kapsülleme, nesne yönelimli programlamada (OOP) temel bir kavramdır ve verilerin (öznitelikler) ve bu veriler üzerinde çalışan yöntemlerin (fonksiyonlar) tek bir birim, tipik olarak bir sınıf içinde bir araya getirilmesi uygulamasını ifade eder.
 
+<br/>
+
+---
+
+<br/>
+
 ## TypeScript'te Kapsülleme
 
 Kapsülleme (Encapsulation), endişelerin ayrılmasını (separation of concerns) ve verilerin gizlenmesini teşvik ederek kod hakkında mantık yürütmeyi, kodu korumayı ve yeniden kullanmayı kolaylaştırır.
@@ -59,8 +65,11 @@ Bu örnekte, BankAccount sınıfı \_balance veri özniteliğini kapsüller (enc
 \_balance özniteliği (attribute) private olarak işaretlenerek doğrudan sınıf dışından erişilememesi veya değiştirilememesi sağlanır. Bunun yerine sınıf, nesnenin durumuyla etkileşimde bulunmak için kullanılabilecek public yöntemleri aracılığıyla iyi tanımlanmış bir arayüz (interface) sağlar.
 
 Deposit ve withdraw yöntemleri (methods) ayrıca nesnenin dahili durumunun (internal state) tutarlı kalmasını sağlamak için bazı temel doğrulamaları da zorunlu kılar (örneğin, negatif tutarlara veya mevcut bakiyeyi aşan para çekme işlemlerine izin vermemek gibi). Bu, veri bütünlüğünün korunmasına yardımcı olduğu ve kodu daha sağlam hale getirdiği için kapsülleme (encapsulation) işlemine bir örnektir.
+<br/>
 
 ---
+
+<br/>
 
 ## Date sınıfı örneği
 
@@ -88,24 +97,30 @@ Bu örnekte, iki Date nesnesi oluşturuyoruz: geçerli tarih ve saati temsil ede
 Perde arkasında, Date sınıfı private bir özellik (property) olarak saklanan zaman damgasını (timestamp) kapsüller. Bu özelliğe sınıf dışından doğrudan erişilemez veya değiştirilemez. Bunun yerine, sınıf kapsüllenmiş veriyi değiştirmek için getter ve setter yöntemleri sağlar. Bu, dahili uygulama detaylarını gizlediği ve tarih ve saat bilgileriyle çalışmak için iyi tanımlanmış bir arayüz (interface) sağladığı için bir kapsülleme (encapsulation) örneğidir.
 
 JavaScript'in private veya public gibi açık (explicit) erişim değiştiricileri (access modifiers) olmadığını belirtmek gerekir. Kapsülleme (Encapsulation), dil tarafından katı bir şekilde uygulanmak yerine, kurallar ve kapanışlar aracılığıyla gerçekleştirilir. Bununla birlikte, Date sınıfı hala kapsülleme ilkelerine bağlı kalarak dahili durumun (internal state) iyi tanımlanmış bir dizi yöntem aracılığıyla korunmasını ve manipüle edilmesini sağlar.
+<br/>
 
 ---
+
+<br/>
 
 ## NestJS ile Typescript'te Kapsülleme
 
 > Kapsülleme sadece verileri gizlemek veya private hale getirmek değildir. İlgili veri ve davranışları tek bir birimde toplamak ve bu verilerle etkileşim için net arayüzler (interfaces) tanımlamakla ilgilidir.
 
 Nesne Yönelimli Programlamanın (OOP) temel ilkelerinden biri kapsüllemedir. Kapsülleme, verilerin ve bu veriler üzerinde çalışan yöntemlerin tek bir birimde toplanması ve bu verilere erişimin kontrol edilmesi anlamına gelir. Bu kavram, bakımı yapılabilir, ölçeklenebilir yazılımlar oluşturmak için temeldir.
+<br/>
 
 ### Neden NestJS?
 
 NestJS, verimli, ölçeklenebilir Node.js web uygulamaları oluşturmak için bir çerçevedir. Modern JavaScript veya TypeScript kullanır ve OOP (Nesne Yönelimli Programlama), FP (Fonksiyonel Programlama) ve FRP (Fonksiyonel Reaktif Programlama) unsurlarını birleştirir. NestJS, geliştiricilerin son derece test edilebilir, ölçeklenebilir, gevşek bir şekilde bağlanmış (loosely coupled) ve kolayca bakımı yapılabilen uygulamalar oluşturmasına olanak tanıyan kullanıma hazır bir uygulama mimarisi (application architecture) sağlar.
 
 NestJS ile ilgili en iyi şeylerden biri, TypeScript'in güçlü yazım (strong typing) ve dekoratörler (decorators) gibi gelişmiş özelliklerinden tam olarak yararlanmasıdır. NestJS, her biri belirli işlevleri kapsülleyebilen modüller, hizmetler ve kontrolcüler kavramı etrafında inşa edilmiştir.
+<br/>
 
 ### NestJS'de Kapsülleme
 
 NestJS'de kapsülleme, hizmetlerin ve denetleyicilerin nasıl oluşturulduğu ve kullanıldığı konusunda gözlemlenir. NestJS'deki hizmetler iş mantığını, kontrolörler ise istek işleme mantığını kapsüllemek içindir.
+<br/>
 
 #### Hizmetlerde (Services) Kapsülleme
 
@@ -131,6 +146,7 @@ export class UsersService {
 ```
 
 UsersService'de, verileri (users dizisi) ve bu veriler üzerinde çalışan yöntemleri (findAll, findOne) kapsüllüyoruz. Bu servis HTTP veya veritabanları hakkında hiçbir şey bilmez; sadece kullanıcıları yönetmekle ilgilenir. Veriler (bu durumda users dizisi) gizli tutulur ve yalnızca hizmet tarafından sağlanan yöntemler aracılığıyla erişilebilir ve değiştirilebilir. Bu, kapsülleme işlemidir.
+<br/>
 
 #### Kontrolörlerde (Controllers) Kapsülleme
 

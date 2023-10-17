@@ -33,6 +33,8 @@ Kapsülleme, verileri (öznitelikleri) ve işlemleri (yöntemleri) sınıf adı 
 ## [Inheritance — Kalıtım](https://github.com/tanerceker/oop-ts/tree/main/oop-concepts/inheritance)
 
 Kalıtım, mevcut sınıflardan öznitelikleri (attributes) ve yöntemleri (methods) devralan yeni sınıfların oluşturulmasını sağlar. Alt sınıf (Subclasses) olarak adlandırılan yeni sınıflar, ana sınıfın (temel (base) veya üst sınıf (superclass) olarak da bilinir) davranışını genişletebilir (extend) veya geçersiz kılabilir (override). Bu, ortak işlevler ilgili sınıflar arasında paylaşılabildiğinden kodun yeniden kullanılabilirliğini ve modülerliği teşvik eder.
+<br/>
+<br/>
 
 ---
 
