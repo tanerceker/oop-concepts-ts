@@ -14,7 +14,7 @@ Aşağıda OOP ve dört ana kavramını dallar halinde gösteren bir grafik yer 
 
 ## [Abstraction — Soyutlama](https://github.com/tanerceker/oop-ts/tree/main/oop-concepts/abstraction)
 
-Bu ilke, programcıların gerçek dünyadaki varlıkları kodda nesneler olarak temsil etmelerine, karmaşıklıklarını gizlemelerine ve çözülen problemle ilgili temel özelliklere odaklanmalarına olanak tanır. Geliştiriciler soyutlamayı (abstraction) kullanarak karmaşık sistemlerin basitleştirilmiş modellerini oluşturabilirler.
+Soyutlama, programcıların gerçek dünyadaki varlıkları kodda nesneler olarak temsil etmelerine, karmaşıklıklarını gizlemelerine ve çözülen problemle ilgili temel özelliklere odaklanmalarına olanak tanır. Geliştiriciler soyutlamayı (abstraction) kullanarak karmaşık sistemlerin basitleştirilmiş modellerini oluşturabilirler.
 <br/>
 <br/>
 

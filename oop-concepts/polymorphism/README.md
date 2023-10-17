@@ -38,7 +38,7 @@ Tek bir arayüz (interface) veya yöntemin farklı veri türleriyle çalışmas�
 OOP bağlamında, alt tür çokbiçimliliği (subtype polymorphism) en yaygın kullanılan biçimdir.
 Bir alt sınıfın (subclass) bir üst sınıftan (superclass) özellikleri (properties) ve yöntemleri (methods) miras aldığı ve ayrıca miras alınan özellikleri ve yöntemleri geçersiz kılabildiği (override) veya genişletebildiği (extend) kalıtım yoluyla elde edilir.
 
-Kalıtım (Inheritance) yoluyla alt tür çokbiçimliliği göstermek için Typescript'i kullanan bir örnek:
+Kalıtım (Inheritance) yoluyla alt tür çokbiçimliliği göstermek için bir örnek:
 
 ```tsx
 // Ortak bir yöntem olan 'area' ile bir temel sınıf 'Shape' tanımlayın
@@ -100,7 +100,7 @@ Jenerik (Generics) olarak da bilinen parametrik çokbiçimlilik (parametric poly
 Typescript'teki jenerikler (generics), parametrik çokbiçimliliği uygulamanın bir yoludur.
 Tür parametrelerini (Type parameters) kullanarak, tür bilgilerini korurken birden çok türle çalışabilen jenerik fonksiyonlar (generic functions), sınıflar (classes) veya arayüzler (interfaces) oluşturabilirsiniz.
 
-İşte Typescript'i kullanarak jenerikler (generics) aracılığıyla parametrik çokbiçimliliği (parametric polymorphism) gösteren bir örnek:
+Typescript kullanarak jenerikler (generics) aracılığıyla parametrik çokbiçimliliği (parametric polymorphism) gösteren bir örnek:
 
 ```tsx
 // Girdi değerini döndüren jenerik bir 'identity' fonksiyonu tanımlayın
@@ -166,7 +166,7 @@ Ara katman fonksiyonları (Middleware functions), istek nesnesine (request objec
 
 #### İstek (Request), Yanıt (Response) ve NextFunction'ı Anlamak
 
-TypeScript ile Express.js'de Request, Response ve NextFunction, Express.js tür tanımları tarafından sağlanan arayüzlerdir (interfaces).
+Typescript ile Express.js'de Request, Response ve NextFunction, Express.js tür tanımları tarafından sağlanan arayüzlerdir (interfaces).
 
 <br/>
 

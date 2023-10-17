@@ -67,7 +67,7 @@ Bu örnekte, bir name özniteliği (attribute), bir yapıcısı (constructor) ve
 
 ## Gerçek Dünya Örneği
 
-TypeScript kalıtımının (inheritance) kullanılabileceği bir e-ticaret uygulamasını içeren daha gerçekçi bir senaryoya göz atalım.
+TypeScript kalıtımının (inheritance) kullanılabileceği bir e-ticaret uygulamasını içeren gerçekçi bir senaryoya göz atalım.
 
 <br/>
 

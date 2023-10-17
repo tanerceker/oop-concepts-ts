@@ -8,13 +8,13 @@ Kapsülleme, nesne yönelimli programlamada (OOP) temel bir kavramdır ve verile
 
 <br/>
 
-## TypeScript'te Kapsülleme
+## Typescript'te Kapsülleme
 
 Kapsülleme (Encapsulation), endişelerin ayrılmasını (separation of concerns) ve verilerin gizlenmesini teşvik ederek kod hakkında mantık yürütmeyi, kodu korumayı ve yeniden kullanmayı kolaylaştırır.
 
 Kapsüllemede, bir nesnenin dahili durumu (internal state) harici kod (external code) tarafından doğrudan manipülasyona veya erişime karşı korunur. Bunun yerine, nesnenin durumuna erişim, genellikle getter ve setter yöntemleri şeklinde iyi tanımlanmış bir arayüz (interface) aracılığıyla sağlanır. Bu, verilerin daha iyi kontrol edilmesine ve doğrulanmasına olanak tanır ve nesnenin dahili durumunun tutarlı kalmasını sağlar.
 
-Typescript kullanarak bir kapsülleme (encapsulation) örneği:
+Typescript ile bir kapsülleme (encapsulation) örneği:
 
 ```tsx
 class BankAccount {

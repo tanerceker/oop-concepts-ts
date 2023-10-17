@@ -14,7 +14,7 @@ Bir sistemin uygulama detaylarının gizlenmesini ve kullanıcıya yalnızca tem
 
 Typescript'te soyutlama, sınıflar ve arayüzler aracılığıyla gerçekleştirilir. Sınıflar, nesneler oluşturmak için planlar tanımlamanıza olanak sağlarken, arayüzler bir sınıfın uyması gereken sözleşmeyi (contract) tanımlar. Arayüzler, gerekli özelliklere (properties) ve yöntemlere (methods) sahip olmalarını sağlayarak sınıflar üzerinde belirli bir yapıyı zorlamak için kullanılır.
 
-İşte Typescript'i kullanan basit bir soyutlama (abstraction) örneği:
+Basit bir soyutlama (abstraction) örneği:
 
 ```tsx
 // Bir şekil için arayüz tanımlayın
