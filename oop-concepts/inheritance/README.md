@@ -1,3 +1,5 @@
+<br/>
+
 # Inheritance — Kalıtım
 
 Kalıtım, Nesne Yönelimli Programlamada (OOP) bir sınıfın başka bir sınıftan özellikleri (properties) (öznitelikleri) ve yöntemleri (methods) (fonksiyonları) miras almasını sağlayan ve böylece kodun yeniden kullanılabilirliğini ve modülerliğini teşvik eden temel bir kavramdır.

@@ -1,3 +1,5 @@
+<br/>
+
 # Polymorphism — Çokbiçimlilik
 
 Çokbiçimlilik, nesne yönelimli programlamada (OOP) farklı sınıflardaki nesnelerin ortak bir üst sınıfın nesneleri olarak ele alınmasını sağlayan temel bir kavramdır.

@@ -1,3 +1,5 @@
+<br/>
+
 # Abstraction — Soyutlama
 
 Nesne Yönelimli Programlamada (OOP) soyutlama, karmaşık sistemleri daha küçük, daha yönetilebilir bileşenlere ayırarak basitleştirme sürecini ifade eder.
