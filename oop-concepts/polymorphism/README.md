@@ -15,16 +15,17 @@ Tek bir arayüz (interface) veya yöntemin farklı veri türleriyle çalışmas�
 <br/>
 
 1. **Alt tür çokbiçimlilik (Subtype polymorphism):**
+   <br/>
    Kalıtım (Inheritance) veya Uygulama çokbiçimliliği (Implementation polymorphism) olarak da bilinir.
-
    <br/>
 
 2. **Parametrik çokbiçimlilik (Parametric polymorphism):**
+   <br/>
    Jenerik (Generics) olarak da bilinir).
-
    <br/>
 
 3. **Ad hoc çokbiçimlilik (Ad hoc polymorphism):**
+   <br/>
    Fonksiyon aşırı yükleme (Function overloading) veya Operatör aşırı yükleme (Operator overloading) olarak da bilinir.
 
 <br/>
