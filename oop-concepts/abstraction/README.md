@@ -53,10 +53,7 @@ class Rectangle implements Shape {
 
 // Bir dizi şeklin toplam alanını hesaplayan fonksiyon
 function calculateTotalArea(shapes: Shape[]): number {
-  let totalArea = 0;
-  for (const shape of shapes) {
-    totalArea += shape.area();
-  }
+  const totalArea = shapes.reduce((acc, shape) => acc + shape.area(), 0);
   return totalArea;
 }
 
@@ -67,7 +64,7 @@ const rectangle = new Rectangle(4, 6);
 // Şekil dizisini kullanarak toplam alanı hesaplayın
 const shapes: Shape[] = [circle, rectangle];
 console.log("Total area:", calculateTotalArea(shapes));
-// Output: Total area: 103.53981633974483
+// Output: Total area: 102.53981633974483
 ```
 
 Bu örnekte, iki yöntem içeren bir Shape arayüzü tanımlıyoruz: area() ve perimeter(). Daha sonra Shape arayüzünü uygulayan Circle ve Rectangle adında iki sınıf oluşturuyoruz. Bu, her iki sınıfın da area() ve perimeter() yöntemlerine sahip olmasını zorunlu kılar ve bir soyutlama düzeyi sağlar. calculateTotalArea() fonksiyonu bir dizi Shape nesnesini kabul eder ve toplam alanı hesaplayıp farklı şekil türleriyle tutarlı ve basitleştirilmiş bir şekilde çalışarak soyutlamanın faydalarını gösterir.
