@@ -38,7 +38,7 @@ class BankAccount {
       return;
     }
     this._balance += amount;
-    return true;
+    return;
   }
 
   // Para çekme yöntemi
@@ -52,7 +52,7 @@ class BankAccount {
       return;
     }
     this._balance -= amount;
-    return true;
+    return;
   }
 }
 
