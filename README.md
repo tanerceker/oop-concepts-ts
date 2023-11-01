@@ -55,7 +55,3 @@ OOP kavramlarını gösteren basit bir UML diyagramı:
 <br/>
 <br/>
 Nesne yönelimli programlama birçok modern programlama dilinde popülerdir. Geliştiriciler, OOP ilkelerini kullanarak sağlam ve ölçeklenebilir uygulamalar oluşturabilir ve bu da onu yazılım geliştirme dünyasında önemli bir paradigma haline getirir.
-
----
-
-— Taner Çeker tarafından hazırlanmıştır.
