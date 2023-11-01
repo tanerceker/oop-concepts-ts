@@ -154,7 +154,3 @@ Bu örnekte, çeşitli ürün türlerini sattığımız bir e-ticaret uygulamam�
 Daha sonra, her ikisi de Product sınıfından miras alan bir Book sınıfı ve bir Electronic sınıfı tanımlarız. Bu sınıfların her biri kendi türüne özgü ek özelliklere sahiptir (Kitap için author ve title, Elektronik için brand ve model gibi) ve kendi özelliklerini içerecek şekilde display yöntemini geçersiz kılarlar.
 
 Bu örnek, bir temel sınıfta (base class) ortak özellikler ve yöntemler tanımlayarak ve bu temel sınıfı her bir ürün türü için genişleterek (extending) daha düzenli ve bakımı kolay bir kod tabanı oluşturmak için Typescript kalıtımının (inheritance) nasıl kullanılabileceğini göstermektedir.
-
----
-
-— Taner Çeker tarafından hazırlanmıştır.

@@ -179,7 +179,3 @@ export class UsersController {
 ```
 
 UsersController'da, HTTP istek işleme mantığını kapsüllüyoruz. findAll yöntemi '/users' URL'sine yönelik GET isteklerini, findOne yöntemi ise '/users/:id' URL'sine yönelik GET isteklerini ele alır. Bu kontrolör, veriler veya verilerin nasıl depolandığı hakkında hiçbir şey bilmez; yalnızca HTTP isteklerini ve yanıtlarını işlemekle ilgilenir.
-
----
-
-— Taner Çeker tarafından hazırlanmıştır.

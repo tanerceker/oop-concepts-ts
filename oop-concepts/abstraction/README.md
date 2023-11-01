@@ -205,7 +205,3 @@ async function createUser() {
 Bu örnekte, yeni bir User örneği (instance) oluşturuyor ve ardından User deposunun (repository) save yöntemini (method) kullanarak kaydediyoruz. Save yöntemi hem ekleme (insert) hem de güncelleme (update) işlemlerini gerçekleştirir. User örneği (instance) veritabanında mevcut değilse, eklenecektir. Eğer varsa, güncellenecektir.
 
 TypeORM, veritabanı üzerinde bir soyutlama katmanı (abstraction layer) sağlayarak veritabanıyla daha Javascript/Typescript dostu bir şekilde çalışmanıza olanak tanır. Temel CRUD işlemleri için ham SQL sorguları yazma ihtiyacını ortadan kaldırır ve veritabanıyla çalışmanın daha nesne yönelimli bir yolunu sağlar.
-
----
-
-— Taner Çeker tarafından hazırlanmıştır.

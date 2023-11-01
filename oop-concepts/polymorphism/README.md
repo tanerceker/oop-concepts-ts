@@ -215,7 +215,3 @@ app.listen(3000, () => {
 ```
 
 Bu kod parçasında, middleware1 ve middleware2 farklı fonksiyonlardır ancak aynı arayüzü (interface) takip ettikleri için her ikisi de Express.js uygulamasında ara katman (middleware) olarak kullanılabilir. Farklı ara katman fonksiyonları (middleware functions) uygulamanın ara katman yığınında (middleware stack) birbirinin yerine kullanılabildiğinden, bu çokbiçimliliğin (polymorphism) bir tezahürüdür.
-
----
-
-— Taner Çeker tarafından hazırlanmıştır.
